@@ -1,0 +1,48 @@
+author: xodevil_fire
+version: 1.0
+website: http://www.silvercraft.fr
+name: SilverChunk
+main: fr.xodevil_fire.SilverChunk.Core
+description: Plugin permettant la sauvegarde de chunks.
+commands:
+  chunk:
+    description: Commande permettant d'obtenir des informations sur les chunks et de les sauvegarder.
+    usage: /<command> <info|list|help|load|unload|save|remove>
+    permission: silverchunk.chunk
+    permission-message: Commande inconnue
+    aliases: ["silverchunk", "sc"]
+permissions:
+  silverchunk.save:
+    default: op
+  silverchunk.save.radius:
+    default: op
+  silverchunk.save.other:
+    default: op
+  silverchunk.remove:
+    default: op
+  silverchunk.remove.radius:
+    default: op
+  silverchunk.remove.other:
+    default: op
+  silverchunk.info:
+    default: op
+  silverchunk.info.other:
+    default: op
+  silverchunk.load:
+    default: op
+  silverchunk.load.radius:
+    default: op
+  silverchunk.load.other:
+    default: op
+  silverchunk.unload:
+    default: op
+  silverchunk.unload.radius:
+    default: op
+  silverchunk.unload.other:
+    default: op
+  silverchunk.debug:
+    default: op
+  silverchunk.list:
+    default: op
+  silverchunk.help:
+    default: op
